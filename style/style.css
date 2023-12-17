@@ -2,6 +2,265 @@
 
 .header {
     width: 1440px;
-    background-color: aqua;
+    background: #2A9D8F;
     margin: auto;
+}
+
+.header_logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 130px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.header_nav {
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 130px;
+    padding-left: 861px;
+
+}
+
+.header_li {
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Nerko One', cursive;
+
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: 0.1px;
+    /* background-color: blue; */
+
+}
+
+.li_middle {
+    margin-left: 51px;
+    margin-right: 51px;
+}
+
+/* div */
+
+
+.div_title {
+    color: #4D4D4D;
+    margin-top: 200px;
+    text-align: center;
+    /* Heading 1/medium */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 62.4px */
+    letter-spacing: 0.24px;
+}
+
+.divp_1 {
+    width: 780px;
+    color: #656565;
+    text-align: justify;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.1px;
+}
+
+.divp_2 {
+    color: #656565;
+    width: 780px;
+    margin: auto;
+    margin-top: 52px;
+    text-align: justify;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 34px */
+    letter-spacing: 0.2px;
+}
+
+/* section  */
+
+.section_img {
+    padding-left: 130px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 120px;
+
+}
+
+.section_1 {
+    width: 1440px;
+    background: #C2F3EE;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.section_img {
+    display: inline-block;
+
+}
+
+.div_section {
+    /* background-color: brown; */
+    display: inline-block;
+    width: 457px;
+    padding-top: 80px;
+    vertical-align: top;
+
+
+}
+
+.section_title {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: 0.16px;
+    margin-bottom: 27px;
+}
+
+.section_txt {
+    color: #515151;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.09px;
+    margin-bottom: 45px;
+}
+
+button {
+    display: inline-flex;
+    padding: 11px 16px;
+    justify-content: center;
+    align-items: center;
+    background: #2A9D8F;
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* section2 */
+
+.section_2 {
+    /* background-color: red; */
+    width: 1180px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.section2_title {
+    text-align: center;
+    color: #4D4D4D;
+
+    /* Heading 1/medium */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 62.4px */
+    letter-spacing: 0.24px;
+    margin-bottom: 54px;
+}
+
+.section2_div1 {
+    /* background-color: blueviolet; */
+    display: inline-block;
+}
+
+.section2_div2 {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.img1_txt {
+    margin-top: 32px;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: 0.12px;
+}
+
+.img2_txt {
+    margin-top: 32px;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: 0.12px;
+}
+
+/* footer  */
+
+
+footer {
+    width: 1440px;
+    background: #2A9D8F;
+    margin: auto;
+}
+
+.div_footer {
+    padding-bottom: 90px;
+}
+
+.footer_icon {
+    padding-top: 90px;
+    padding-left: 130px;
+}
+
+.div_footer1 {
+    display: inline-block;
+    margin-left: 934px;
+}
+
+.footer_title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.footer_li {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
 }
